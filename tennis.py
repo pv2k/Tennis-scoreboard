@@ -19,7 +19,7 @@ class Player:
             opponent.__point = 40
         else:
             self.__point += 15
-    def add_game(self,opponent):
+    def add_game(self,opponent):#increase
         global x1
         global y1
         global flag
