@@ -40,7 +40,7 @@ class Player:
         opponent.__game = 0
         self.__set += 1
 class Score:
-    global Iteration
+    global Iteration #score class
     Iteration = 0
     def __init__(self,state,a,b):
         global Iteration
