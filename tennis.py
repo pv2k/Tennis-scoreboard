@@ -1,7 +1,7 @@
 # input file(.csv) is given as a command line argument
 #-*-coding:utf-8-*-
 class Player:
-    def __init__(self,name):
+    def __init__(self,name): #player class
         self.name = name
         self.__point = 0
         self.__game = 0
